@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 
 <head>
   <meta charset="UTF-8">
@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' />
   <!-- <link rel='stylesheet'
     href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css' /> -->
@@ -25,7 +25,7 @@
         <div class="col-xl-12">
           <div class="d-flex justify-content-between align-items-center">
             <h1>CRAFTsMAN</h1>
-            <ul class="nav justify-content-center">
+            <ul class="nav justify-content-center text-white">
               <li class="nav-item">
                 <a class="nav-link active" href="#">Product</a>
               </li>
@@ -36,7 +36,7 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="carts.html">
                   <i class="material-icons">
                     shopping_cart
                   </i>
@@ -48,9 +48,9 @@
       </div>
       <div class="b-left d-flex justify-content-between align-items-center">
         <div class="b-text">
-          <p class="b-title fw">Enjoy Your<br>Minimalist Lifestyle.</p>
+          <div class="b-title font-weight-bold">Enjoy Your<br>Minimalist Lifestyle.</div>
           <p class="b-subTitle">The best crafts in Taiwan. Get your free<br>shipping on the first order.</p>
-          <div class="btn btnGreen btnBig fw mt-5">Shop now</div>
+          <div class="btn btnGreen btnBig mt-5 font-weight-bold btn-success">Shop now</div>
         </div>
       </div>
     </div>
@@ -62,11 +62,11 @@
     <div class="container h-100">
       <div class="row align-items-center h-100">
         <div class="col-xl-5">
-          Subscribe for news and special offers!
+          <div class="b-title font-weight-bold text-white">Subscribe for news and special offers!</div>
           <div class="input-group">
             <input type="text" class="form-control" name="name" id="name" placeholder="" aria-label="">
             <span class="input-group-btn">
-              <button class="btn btn-secondary" type="button" aria-label="">Action</button>
+              <button class="btn btn-success" type="button" aria-label="">Action</button>
             </span>
           </div>
         </div>
@@ -100,7 +100,7 @@
   <script src="./assets/js/all.js"></script>
   <script>
     $('.card-group').owlCarousel({
-      center: true,
+      // center: true,
       items: 3,
       loop: false,
       margin: 20,
