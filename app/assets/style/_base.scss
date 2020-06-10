@@ -45,9 +45,6 @@ ul {
   background-position: right calc(50% - 690px) top 0%;
   background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week6/index-1.jpg?raw=true");
 }
-.b-left {
-  height: calc(100% - 20%);
-}
 .b-title {
   font-size: 3rem;
 }
@@ -55,32 +52,32 @@ ul {
   color: #0000009a;
   font-size: 1.5rem;
 }
+.subTitle {
+  color: #0000009a;
+}
 .btnBig {
   padding: 18px 45px;
 }
-
-.nonloop li {
-  background-color: red;
+.g-color{
+  color: $success;
 }
-.artBg {
+.artBg,
+.mailForm {
   height: 400px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.artBg {
   background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week6/index-5.jpg?raw=true");
 }
 .mailForm {
-  height: 400px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week6/footer.jpg?raw=true");
 }
 .footer {
   color: #fff;
   background-color: #000;
 }
-
 .productNav {
   height: 76px;
   background-color: #f2f2f2;
