@@ -58,7 +58,7 @@ ul {
 .btnBig {
   padding: 18px 45px;
 }
-.g-color{
+.g-color {
   color: $success;
 }
 .artBg,
@@ -81,4 +81,11 @@ ul {
 .productNav {
   height: 76px;
   background-color: #f2f2f2;
+}
+.topMenu,
+.bgBlack {
+  transition-duration: 0.3s;
+}
+.bgBlack {
+  background-color: red;
 }
