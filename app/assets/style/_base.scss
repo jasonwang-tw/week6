@@ -40,6 +40,7 @@ ul {
   background-color: #fff;
 }
 .indexBanner {
+  margin-top: -56px;
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: right calc(50% - 690px) top 0%;
@@ -83,10 +84,15 @@ ul {
 }
 .bgBlack {
   background-color: #000;
+  color: #fff;
 }
 .carouselCard .card{
   border: none;
   .card-body{
     padding-left: 0;
   }
+}
+.sale{
+  top: 10px;
+  right: 10px;
 }

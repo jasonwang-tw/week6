@@ -12,11 +12,16 @@ $('.card-group').owlCarousel({
 });
 
 $(window).scroll(function () { //隨時更新瀏覽器卷軸高度
-  if ($(window).scrollTop() > 200) {
+  if ($(window).scrollTop() > 100) {
     $('.topMenu').addClass('bgBlack');
     $('.logo').addClass('logo_w');
-  } else if ($(window).scrollTop() < 200) {
+  } else if ($(window).scrollTop() < 100) {
     $('.topMenu').removeClass('bgBlack');
     $('.logo').removeClass('logo_w');
   }
 });
+
+$('.topMenu').scrollToFixed();
+
+var topMenu = $('.productNav').prevAll('.topMenu');
+$(topMenu).find('.nav').removeClass('text-white');
