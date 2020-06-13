@@ -134,11 +134,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
+  color: #0E8A00;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #0056b3;
+    color: #0e8a00;
     text-decoration: underline; }
 
 a:not([href]) {
@@ -2664,10 +2664,10 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #0E8A00;
   text-decoration: none; }
   .btn-link:hover {
-    color: #0056b3;
+    color: #0e8a00;
     text-decoration: underline; }
   .btn-link:focus, .btn-link.focus {
     text-decoration: underline; }
@@ -4210,12 +4210,12 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #0E8A00;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
     z-index: 2;
-    color: #0056b3;
+    color: #0e8a00;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6; }
@@ -8379,15 +8379,19 @@ body {
   font-size: 16px; }
 
 img {
-  max-width: 100%;
-  max-height: 100%;
-  display: inline-block; }
+  max-width: 100%; }
 
 a {
   color: inherit;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s; }
 
 a:hover {
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   text-decoration: none; }
 
 .btn.focus,
@@ -8399,53 +8403,103 @@ a:hover {
 ul {
   list-style-type: none; }
 
+.form-control::-webkit-input-placeholder {
+  color: white; }
+
+.form-control::-moz-placeholder {
+  color: white; }
+
+.form-control:-ms-input-placeholder {
+  color: white; }
+
+.form-control::-ms-input-placeholder {
+  color: white; }
+
+.form-control::placeholder {
+  color: white; }
+
+.logo {
+  font-family: Raleway; }
+
 .btnGreen:hover {
   color: #0e8a00;
   border: 1px solid #0e8a00;
   background-color: #fff; }
 
 .indexBanner {
+  margin-top: -56px;
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: right calc(50% - 690px) top 0%;
   background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week6/index-1.jpg?raw=true"); }
 
-.b-left {
-  height: calc(100% - 20%); }
-
-.b-title {
-  font-size: 3rem; }
-
-.b-subTitle {
-  color: #0000009a;
-  font-size: 1.5rem; }
-
 .btnBig {
   padding: 18px 45px; }
 
-.nonloop li {
-  background-color: red; }
+.g-color {
+  color: #0E8A00; }
 
-.artBg {
+.artBg,
+.mailForm {
   height: 400px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; }
+
+.artBg {
   background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week6/index-5.jpg?raw=true"); }
 
 .mailForm {
-  height: 400px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week6/footer.jpg?raw=true"); }
+  .mailForm input {
+    padding: 25px; }
+  .mailForm button {
+    -webkit-transform: translateX(-1px);
+        -ms-transform: translateX(-1px);
+            transform: translateX(-1px);
+    padding: 13px 25px;
+    border-radius: 0 5px 5px 0; }
 
 .footer {
+  height: 95px;
   color: #fff;
   background-color: #000; }
 
 .productNav {
   height: 76px;
   background-color: #f2f2f2; }
+
+.logo_w {
+  color: #fff; }
+
+.topMenu,
+.bgBlack {
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s; }
+
+.bgBlack {
+  background-color: #000;
+  color: #fff; }
+
+.carouselCard .card,
+.card-columns .card {
+  border: none; }
+  .carouselCard .card .card-body,
+  .card-columns .card .card-body {
+    padding-left: 0; }
+
+.sale {
+  top: 10px;
+  right: 10px; }
+
+.navPage .active {
+  color: #0e8a00;
+  text-decoration: underline; }
+
+.owl-carousel .owl-item img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 /*# sourceMappingURL=all.css.map */
