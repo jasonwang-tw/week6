@@ -8421,6 +8421,9 @@ ul {
 .logo {
   font-family: Raleway; }
 
+.active {
+  color: #0e8a00; }
+
 .btnGreen:hover {
   color: #0e8a00;
   border: 1px solid #0e8a00;
@@ -8494,7 +8497,6 @@ ul {
   right: 10px; }
 
 .navPage .active {
-  color: #0e8a00;
   text-decoration: underline; }
 
 .owl-carousel .owl-item img {
