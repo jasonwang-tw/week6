@@ -25,3 +25,4 @@ $('.topMenu').scrollToFixed();
 
 var topMenu = $('.productNav').prevAll('.topMenu');
 $(topMenu).find('.nav').removeClass('text-white');
+$(topMenu).find('.nav-link').first().addClass('active');
